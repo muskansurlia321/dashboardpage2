@@ -11,6 +11,15 @@
     />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      nav {
+        position: fixed; /* Stick nav at top */
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Make sure it's above the map */
+      }
+    </style>
   </head>
   <body class="bg-gray-50">
     <!-- Navigation Bar -->

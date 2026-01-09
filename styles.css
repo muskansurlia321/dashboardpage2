@@ -4,13 +4,6 @@
 #map {
   z-index: 0;
 }
-nav {
-  position: fixed; /* Stick nav at top */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000; /* Make sure it's above the map */
-}
 
 /* Smooth transitions */
 * {
