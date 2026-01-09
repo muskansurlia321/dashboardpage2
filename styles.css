@@ -4,7 +4,7 @@
 #map {
   z-index: 0;
 }
-.top {
+nav {
   position: fixed; /* Stick nav at top */
   top: 0;
   left: 0;
